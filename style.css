@@ -116,4 +116,9 @@
             border-top: 1px solid #333;
         }
 
-        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .libros-grid {
+                grid-template-columns: 1fr;
+            }
+    }
